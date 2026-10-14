@@ -1,0 +1,36 @@
+{
+  "name": "forrestneo-glm-routing-suite",
+  "description": "Community marketplace for the glm-routing-suite ZCode plugin (jsDelivr CDN distribution)",
+  "owner": { "name": "forrestneo", "url": "https://github.com/forrestneo" },
+  "plugins": [
+    {
+      "name": "glm-routing-suite",
+      "version": "0.5.0",
+      "displayName": "GLM Routing Suite",
+      "displayName_i18n": {
+        "en": "GLM Routing Suite",
+        "zh-CN": "GLM 思维路由套件"
+      },
+      "description": "Four-stage workflow + delivery gate + graded task protocol with a soft stage gate and variant presets, ported from dsh-routing-suite (MIT/Apache-2.0): default zero-injection, completion-signal advancement, delivery_check evidence manifest, two-tier spec gating with red-team gates, PreToolUse write/edit gating, spec/react style presets",
+      "description_i18n": {
+        "en": "Four-stage workflow + delivery gate + graded task protocol with a soft stage gate and variant presets, ported from dsh-routing-suite (MIT/Apache-2.0): default zero-injection, completion-signal advancement, delivery_check evidence manifest, two-tier spec gating with red-team gates, PreToolUse write/edit gating, spec/react style presets",
+        "zh-CN": "移植自 dsh-routing-suite 的四阶段工作流＋交付门禁＋分级任务协议＋软阶段门禁＋变体预设：默认零注入、完成信号晋级、delivery_check 证据清单、两级规格门控含红队门、规格阶段 PreToolUse 扣住写入、spec/react 风格档"
+      },
+      "author": { "name": "forrestneo" },
+      "category": "developer-tools",
+      "keywords": ["routing", "reasoning-mode", "glm", "workflow", "delivery-gate", "graded", "red-team"],
+      "source": {
+        "source": "url",
+        "type": "zip",
+        "url": "https://cdn.jsdelivr.net/gh/forrestneo/glm-routing-suite@v0.5.0/dist/glm-routing-suite-0.5.0.zip",
+        "sha256": "9684f803451f6f11a489475fca567430a0abf1de09adaa7b22b36f788bff320b",
+        "path": "glm-routing-suite"
+      },
+      "_artifact": {
+        "path": "dist/glm-routing-suite-0.5.0.zip",
+        "sha256": "9684f803451f6f11a489475fca567430a0abf1de09adaa7b22b36f788bff320b",
+        "size": 40701
+      }
+    }
+  ]
+}
